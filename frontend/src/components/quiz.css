@@ -1,0 +1,35 @@
+.sct {
+    background: linear-gradient(180deg, #1CB5E0 0%, #000851 100%);
+  }
+  
+  .board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust this if needed */
+  }
+  
+  .card {
+    /* Add your card styles here */
+    border: #FC466B;
+    background-color: rgba(0, 8, 81, 0.219);
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+}
+  #btr {
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    color: white;
+    font-weight: bold;
+    width: 80%;
+    margin: 3rem auto; /* Center horizontally */
+    text-align: center; /* Center text inside the element */
+  }
+  
+
+#btnopt{
+    background-color: rgba(255, 255, 255, 0.251);
+    padding-right: 2px;
+    padding-top: 3px;
+    
+}

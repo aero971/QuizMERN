@@ -1,0 +1,40 @@
+#rsl {
+  background: linear-gradient(180deg, #1cb5e0 0%, #000851 100%);
+}
+
+.bord {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  min-height: 100vh;
+}
+.result-bord {
+  color: #fff; /* Text color */
+  text-align: center; /* Center align text */
+  padding: 1.25rem; /* Padding on all sides */
+  border-radius: 0.25rem; /* Rounded corners */
+}
+
+/* Success background color */
+
+/* Success background color */
+.result-bord.custom-bg-success {
+  background-color: #00fd264e;
+
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Danger background color */
+.result-bord.custom-bg-danger {
+  background-color: #ff092e9b;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
